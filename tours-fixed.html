@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>tours-fixed</title>
+    <link rel="stylesheet" href="./assets/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/lib/bootstrap/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="./assets/lib/slick/slick.css">
+    <link rel="stylesheet" href="./assets/lib/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <script defer src="./assets/lib/jquery/jquery-3.7.1.min.js"></script>
+    <script defer src="./assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script defer src="./assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script defer src="./assets/lib/slick/slick.min.js"></script>
+    <script defer src="./assets/js/main.js"></script>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container position-relative">
+            <div id="logo" class="logo">
+                <a href="/">
+                    <img src="./assets/images/svg/top-menu-logo.svg" alt="">
+                </a>
+            </div>
+            <div class="top-menu">
+                <ul>
+                    <li>
+                        <span style="background: #79c3cb"></span>
+                        <a href="#">Trekking</a>
+                    </li>
+                    <li>
+                        <span style="background: #de2920"></span>
+                        <a href="#">Nomadic Culture Tours</a>
+                    </li>
+                    <li>
+                        <span style="background: #d3996f"></span>
+                        <a href="#">Horse riding</a>
+                    </li>
+                    <li>
+                        <span style="background: #77a676"></span>
+                        <a href="#">Biking</a>
+                    </li>
+                    <li>
+                        <span style="background: #e3ba28"></span>
+                        <a href="#">Great Silk Road</a>
+                    </li>
+                    <li>
+                        <span style="background: #979e97"></span>
+                        <a href="#">Tours with fixed departure dates</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="menu-btn" class="menu-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </div>
+    <div id="header__nav" class="header__nav">
+        <nav class="nav">
+            <div class="container">
+                <ul class="nav__list">
+                    <li class="nav__list_item"><a class="nav__link" href="#">About us</a></li>
+                    <li class="nav__list_item"><a class="nav__link" href="#">Our services</a></li>
+                    <li class="nav__list_item"><a class="nav__link" href="#">Central Asia</a></li>
+                    <li class="nav__list_item"><a class="nav__link" href="#">Newsletter</a></li>
+                    <li class="nav__list_item"><a class="nav__link" href="#">Photo gallery</a></li>
+                    <li class="nav__list_item"><a class="nav__link" href="#">Contact</a></li>
+                    <li class="nav__list_item"><a class="nav__link" href="#">Trip planner</a></li>
+                </ul>
+                <div class="additional-info">
+                    <div class="left-part">
+                        <div class="email">
+                            <img src="./assets/images/svg/email.svg" alt="email">
+                            <a href="mailto:info@novinomad.com">info@novinomad.com</a>
+                        </div>
+                        <div class="phone">
+                            <img src="./assets/images/svg/phone.svg" alt="phone">
+                            <a href="tel:996312622381">(++ 996 312) 62 23 81</a>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <div class="search">
+                            <a href="#">
+                                <img src="./assets/images/svg/search.svg" alt="search">
+                            </a>
+                            <input type="text">
+                        </div>
+                        <div class="lang">
+                            <a href="#">RU</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-search">
+                    <div class="search">
+                        <a href="#">
+                            <img src="./assets/images/svg/search.svg" alt="search">
+                        </a>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="header-mobile-menu">
+        <div class="container-fluid header-mobile-menu__container">
+            <div id="logo-mobile" class="logo-mobile">
+                <a href="/">
+                    <img src="./assets/images/svg/img_logo_mobile.svg" alt="">
+                </a>
+            </div>
+            <div class="header-mobile-menu__buttons">
+                <div class="mobile-lang-button">
+                    <a href="#">RU</a>
+                </div>
+                <div id="menu-mobile-btn" class="menu-btn-mobile">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header no-background">
+        <div class="container header-padding header-desktop">
+            <div class="header-menu__main">
+                <div class="header-menu__left-part col-4">
+                    <ul class="header-menu__main-menu">
+                        <li class="header-menu__list_item"><a class="header-menu__link" href="#">About us</a></li>
+                        <li class="header-menu__list_item"><a class="header-menu__link" href="#">Our services</a></li>
+                        <li class="header-menu__list_item"><a class="header-menu__link" href="#">Central Asia</a></li>
+                        <li class="header-menu__list_item"><a class="header-menu__link" href="#">Newsletter</a></li>
+                    </ul>
+                    <div class="header-menu__mail">
+                        <img src="./assets/images/svg/email.svg" alt="">
+                        <a href="mailto:info@novinomad.com">info@novinomad.com</a>
+                    </div>
+                </div>
+                <div class="header-menu__logo col-2">
+                    <a href="/">
+                        <img src="./assets/images/svg/main-logo-black.svg" alt="">
+                    </a>
+                </div>
+                <div class="header-menu__right-part col-4">
+                    <ul class="header-menu__main-menu">
+                        <li class="header-menu__list_item"><a class="header-menu__link" href="#">Photo gallery</a></li>
+                        <li class="header-menu__list_item"><a class="header-menu__link" href="#">Contact</a></li>
+                        <li class="header-menu__list_item"><a class="header-menu__link" href="#">Trip planner</a></li>
+                        <li class="header-menu__list_item">
+                            <a class="header-menu__link-search" href="#">
+                                <img src="./assets/images/svg/search.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header-menu__phone">
+                        <img src="./assets/images/svg/phone.svg" alt="">
+                        <a href="tel:++996312622381">(++ 996 312) 62 23 81</a>
+                        <a class="header-menu__lang" href="#ru">RU</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="central-asia">
+        <div class="container">
+            <h1>Tours with fixed departure dates</h1>
+            <p>
+                In the year of 2024 NoviNomad will conduct 8 tours with 20 fixed dates - Trekking, Moto and
+                Cycling, Cultural and Horse Riding tour. Please see below the trips:
+            </p>
+        </div>
+        <section class="fix-tours">
+            <div class="container">
+                <ul class="nav nav-pills mb-3 festival-list " id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button
+                                class="nav-link tour-fix-item active"
+                                id="pills-general-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#pills-general" type="button" role="tab"
+                                aria-controls="pills-general" aria-selected="true">
+                            <div class="festival-item">
+                                <div class="festival-item__date">
+                                    <img class="festival-img" src="/assets/images/svg/festival-green.svg" alt="">
+                                    <img class="festival-img-active" src="/assets/images/svg/festival-white.svg" alt="">
+                                    <span>July 7</span>
+                                </div>
+                                <div class="festival-item__name">
+                                    National Horse Games Festival by CBT Kyzyl-Oi
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button
+                                class="nav-link tour-fix-item"
+                                id="pills-travel-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#pills-travel"
+                                type="button" role="tab"
+                                aria-controls="pills-travel"
+                                aria-selected="false">
+                            <div class="festival-item">
+                                <div class="festival-item__date">
+                                    <img class="festival-img" src="/assets/images/svg/festival-green.svg" alt="">
+                                    <img class="festival-img-active" src="/assets/images/svg/festival-white.svg" alt="">
+                                    <span>July 7</span>
+                                </div>
+                                <div class="festival-item__name">
+                                    National Horse Games Festival by CBT Kyzyl-Oi
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button
+                                class="nav-link tour-fix-item"
+                                id="pills-culture-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#pills-culture"
+                                type="button" role="tab"
+                                aria-controls="pills-culture"
+                                aria-selected="false">
+                            <div class="festival-item">
+                                <div class="festival-item__date">
+                                    <img class="festival-img" src="/assets/images/svg/festival-green.svg" alt="">
+                                    <img class="festival-img-active" src="/assets/images/svg/festival-white.svg" alt="">
+                                    <span>July 7</span>
+                                </div>
+                                <div class="festival-item__name">
+                                    National Horse Games Festival by CBT Kyzyl-Oi
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button
+                                class="nav-link tour-fix-item"
+                                id="pills-useful-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#pills-useful"
+                                type="button" role="tab"
+                                aria-controls="pills-useful"
+                                aria-selected="false">
+                            <div class="festival-item">
+                                <div class="festival-item__date">
+                                    <img class="festival-img" src="/assets/images/svg/festival-green.svg" alt="">
+                                    <img class="festival-img-active" src="/assets/images/svg/festival-white.svg" alt="">
+                                    <span>July 7</span>
+                                </div>
+                                <div class="festival-item__name">
+                                    National Horse Games Festival by CBT Kyzyl-Oi
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button
+                                class="nav-link tour-fix-item"
+                                id="pills-phrase-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#pills-phrase"
+                                type="button" role="tab"
+                                aria-controls="pills-phrase"
+                                aria-selected="false">
+                            <div class="festival-item">
+                                <div class="festival-item__date">
+                                    <img class="festival-img" src="/assets/images/svg/festival-green.svg" alt="">
+                                    <img class="festival-img-active" src="/assets/images/svg/festival-white.svg" alt="">
+                                    <span>July 7</span>
+                                </div>
+                                <div class="festival-item__name">
+                                    National Horse Games Festival by CBT Kyzyl-Oi
+                                </div>
+                            </div>
+                        </button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-general"
+                         role="tabpanel" aria-labelledby="pills-general-tab">
+                        <h2 class="accordion__head-title-sm">
+                            Nomadic Life Experience
+                        </h2>
+                        <p class="gen-info__text">
+                            The nomadic way of life imposed its own conditions on a person’s life. And this means that its housing must be adapted and comfortable for life. Yurt is one of the most important part of Kyrgyz and Kazakh culture, and this is more than just a home. They symbolize the family, the earth and the universe and cover all stages of life from birth to death. The majority of Kyrgyz culture is associated with yurts, from important rituals and ceremonies, to artisanship and traditional craftsmanship.
+                            <br>
+                            <br>
+                            Living in yurt camps is an affordable and interesting way for travelers to get acquainted with the culture of Kyrgyzstan and Kazakhstan. Learn how to set up a yurt, participate in making felt and attend the work of the wood (structure of the yurt). Memories of the warm hospitality will remain with you for life.
+                        </p>
+                        <div class="tour-fix-attributes">
+                            <div class="tour-fix-attributes-item">
+                                <b>highest altitude (m)</b>
+                                <span>3447</span>
+                            </div>
+                            <div class="tour-fix-attributes-item">
+                                <b>highest altitude (m)</b>
+                                <span>3447</span>
+                            </div>
+                            <div class="tour-fix-attributes-item">
+                                <b>highest altitude (m)</b>
+                                <span>3447</span>
+                            </div>
+                            <div class="tour-fix-attributes-item">
+                                <b>highest altitude (m)</b>
+                                <span>3447</span>
+                            </div>
+                            <div class="tour-fix-attributes-item">
+                                <b>highest altitude (m)</b>
+                                <span>3447</span>
+                            </div>
+                            <div class="tour-fix-attributes-item">
+                                <b>highest altitude (m)</b>
+                                <span>3447</span>
+                            </div>
+                        </div>
+                        <div class="tour-fix-desc-photo">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus dictum sem, sit amet laoreet nisi eleifend a. Nullam tincidunt, justo vitae dictum tincidunt, mi ligula euismod mi, et porttitor risus turpis quis mi. Nulla eu lobortis urna. Nulla a tempus erat. Curabitur lobortis tortor eu odio semper, id placerat mauris pulvinar. Nam at purus ligula. Vestibulum convallis risus ex, id efficitur lacus sagittis vel. Pellentesque eget tincidunt odio. Nulla blandit ligula vitae venenatis dictum. Donec cursus nisl nibh, a pellentesque neque vulputate et. Nam nec velit nec urna placerat cursus. Vivamus aliquet mattis risus, vel volutpat augue tincidunt venenatis. Etiam ipsum urna, sodales a congue in, lacinia sit amet neque.
+                            </p>
+                            <img src="/assets/images/big/big-tour.jpg" alt="">
+                        </div>
+                        <div class="fix-tours-dates">
+                            <h2>Dates to start in season 2024:</h2>
+                            <div class="fix-tours-dates__list">
+                                <div class="fix-tours-dates__item">
+                                    <span>12.06.2024 – 19.06.2024</span>
+                                    <a href="#">Reservation</a>
+                                </div>
+                                <div class="fix-tours-dates__item">
+                                    <span>12.06.2024 – 19.06.2024</span>
+                                    <a href="#">Reservation</a>
+                                </div>
+                                <div class="fix-tours-dates__item">
+                                    <span>12.06.2024 – 19.06.2024</span>
+                                    <a href="#">Reservation</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="detailed">
+                            <h2>Detailed itinerary</h2>
+                            <div class="program-fix active">
+                                <div class="top">
+                                    <div class="pdf-icon">
+                                        <img class="black" src="/assets/images/svg/pdf_icon.svg" alt="">
+                                        <img class="white" src="/assets/images/svg/icon_file_white.svg" alt="">
+                                    </div>
+                                    <div class="eye-icon">
+                                        <img class="black" src="/assets/images/svg/ion_eye-outline.svg" alt="">
+                                        <img class="white" src="/assets/images/svg/white-eye.svg" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <div class="program-fix_name">
+                                    program_nomadic.pdf
+                                </div>
+                            </div>
+                            <div class="program-fix__description">
+                                <div class="tour-fix-desc-photo">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus dictum sem, sit amet laoreet nisi eleifend a. Nullam tincidunt, justo vitae dictum tincidunt, mi ligula euismod mi, et porttitor risus turpis quis mi. Nulla eu lobortis urna. Nulla a tempus erat. Curabitur lobortis tortor eu odio semper, id placerat mauris pulvinar. Nam at purus ligula. Vestibulum convallis risus ex, id efficitur lacus sagittis vel. Pellentesque eget tincidunt odio. Nulla blandit ligula vitae venenatis dictum. Donec cursus nisl nibh, a pellentesque neque vulputate et. Nam nec velit nec urna placerat cursus. Vivamus aliquet mattis risus, vel volutpat augue tincidunt venenatis. Etiam ipsum urna, sodales a congue in, lacinia sit amet neque.
+                                    </p>
+                                    <img src="/assets/images/big/big-tour.jpg" alt="">
+                                </div>
+                                <div class="highlights">
+                                    <h3>Highlights of the tour:</h3>
+                                    <div class="highlights-list">
+                                        <div class="highlights-item">
+                                            <span>
+                                                Enjoy the quiet charms and warm hospitality of Kyrgyzstan
+                                            </span>
+                                        </div>
+                                        <div class="highlights-item">
+                                            <span>
+                                                Enjoy the quiet charms and warm hospitality of Kyrgyzstan
+                                            </span>
+                                        </div>
+                                        <div class="highlights-item">
+                                            <span>
+                                                Enjoy the quiet charms and warm hospitality of Kyrgyzstan
+                                            </span>
+                                        </div>
+                                        <div class="highlights-item">
+                                            <span>
+                                                Enjoy the quiet charms and warm hospitality of Kyrgyzstan
+                                            </span>
+                                        </div>
+                                        <div class="highlights-item">
+                                            <span>
+                                                Enjoy the quiet charms and warm hospitality of Kyrgyzstan
+                                            </span>
+                                        </div>
+                                        <div class="highlights-item">
+                                            <span>
+                                                Enjoy the quiet charms and warm hospitality of Kyrgyzstan
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="itinerary">
+                                    <h3>Itinerary</h3>
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOneTest">
+                                                <button
+                                                        class="accordion-button"
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseOneTest"
+                                                        aria-expanded="true"
+                                                        aria-controls="collapseOne">
+                                                    Day 1.  Bishkek – Jaichy (320 km, 5-6 hours of driving)
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOneTest"
+                                                 class="accordion-collapse collapse show"
+                                                 aria-labelledby="headingOneTest"
+                                                 data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <p>Local driver and guide will meet with you at 10:00 AM at the lobby of the hotel. Transfer to southern shore of IssykKuk. On the way visit the old town of Balasagun and Burana Tower. Its construction dated from the 10th to the 11th century. Lunch in road side cafes, where it is possible to taste local bread called “Kattama”, guide will help with arrangements. Stop in Kyzyl-Tuu, where the local masters make the wooden parts of the yurts. The local artisan will show you how to make wooden parts of Yurt by your own hands. Dinner and overnight at the yurt camp in Jaichy Gorge, experience overnight in yurts as nomads. (Meal: D)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fix-tour-details">
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-travel"
+                         role="tabpanel" aria-labelledby="pills-travel-tab">
+                        <h2 class="accordion__head-title">
+                            Travel information
+                        </h2>
+                        <div class="desktop_block">
+                            <ul class="nav nav-pills mb-3" id="pills-tab-travelinfo" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active"
+                                            id="pills-shopping-tab"
+                                            data-bs-toggle="pill"
+                                            data-bs-target="#pills-shopping" type="button" role="tab"
+                                            aria-controls="pills-shopping" aria-selected="true">
+                                        Shopping
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link"
+                                            id="pills-money-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-money"
+                                            type="button" role="tab"
+                                            aria-controls="pills-money" aria-selected="false">
+                                        Money
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link"
+                                            id="pills-transport-tab"
+                                            data-bs-toggle="pill"
+                                            data-bs-target="#pills-transport"
+                                            type="button" role="tab"
+                                            aria-controls="pills-transport-tab" aria-selected="false">
+                                        Public transport
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link"
+                                            id="pills-photo-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-photo" type="button" role="tab"
+                                            aria-controls="pills-photo-tab" aria-selected="false">
+                                        Photography
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link"
+                                            id="pills-get-tab"
+                                            data-bs-toggle="pill"
+                                            data-bs-target="#pills-get" type="button" role="tab"
+                                            aria-controls="pills-get-tab" aria-selected="false">
+                                        How to get here
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link"
+                                            id="pills-condition-tab"
+                                            data-bs-toggle="pill"
+                                            data-bs-target="#pills-condition" type="button" role="tab"
+                                            aria-controls="pills-condition-tab" aria-selected="false">
+                                        Conditions of residence
+                                    </button>
+                                </li>
+                                <li class="nav-item custom-weight" role="presentation">
+                                    <button class="nav-link" id="pills-missions-tab"
+                                            data-bs-toggle="pill"
+                                            data-bs-target="#pills-missions" type="button" role="tab"
+                                            aria-controls="pills-missions-tab" aria-selected="false">
+                                        Overseas diplomatic missions of the Kyrgyz Republic
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-airport-tab"
+                                            data-bs-toggle="pill"
+                                            data-bs-target="#pills-airport" type="button" role="tab"
+                                            aria-controls="pills-airport-tab" aria-selected="false">
+                                        Customs and airport taxes
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContentInfo">
+                                <div class="tab-pane fade show active" id="pills-shopping"
+                                     role="tabpanel" aria-labelledby="pills-shopping-tab">
+                                    <h2 class="accordion__head-title-sm">Shopping</h2>
+                                    <p>
+                                        The retail market, especially in Bishkek, continues to develop apace and there are now several modern shopping complexes and supermarkets and lots of individual specialist boutiques selling mainly imported food, clothes, footwear, electronic goods etc.
+                                        For lovers of the exotic, the bazaars are open 7 days a week.
+                                        There are also several bazaars selling literally everything and the Dordoi Bazaar on the northern outskirts of the city is in fact the largest market in Central Asia. Buyers come from all over, including Russia, arrive here to purchase goods for wholesale in their own countries. If you have money it is possible to buy virtually anything you could wish for here.
+                                        Aside from ordinary shops, there are a host of specialist sstores in Bishkek where you can buy anything you may need, including specialized trekkingt equipment and clothes.
+                                        There are lots of pharmacies in the towns and western drugs and medicines are quite freely available but if you need special prescriptions you would be well advised to bring an adequate supply with you. Opticians are everywhere and offer very good services at very good prices compared to Europe/USA.
+                                        In specialized food shops in large cities you can buy virtually all your favourite food and drinks.
+                                        The majority of shops are open from 9 a.m. till 5 p.m. and some are open 24 hours a day. Supermarkets work from 10 a.m. till 8 p.m. You are advised to go shopping and to the markets with Kyrgyz soms only and no other currencies.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="pills-money"
+                                     role="tabpanel" aria-labelledby="pills-money-tab">
+                                    <h2 class="accordion__head-title-sm">Money</h2>
+                                    <p>
+                                        The Kyrgyz Som is freely exchangeable and in Bishkek there are literally hundreds of exchange offices where it is possible to exchange most currencies. These usually offer a better rate than the banks. It is possible to use international credit cards in some places in Bishkek and in some banks you can use your credit card to get money from abroad. Whether you do this or bring cash with you, it is advisable to get either new 100 USD notes (a lot of places will refuse to exchange or offer lower exchange rates for old notes) or minimum Euro 50 notes to exchange. Western Union Money Transfers are possible in the cities. Exchange facilities do not exist in the villages. The som has been remarkably stable over the last couple of years and exchange rates as of October 2023 were 88 som/USD and 93 som/Euro.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="pills-transport"
+                                     role="tabpanel" aria-labelledby="pills-transport-tab">
+                                    <h2 class="accordion__head-title-sm">Public transport</h2>
+                                    <p>
+                                        In Bishkek the best method of public transport is by electrified trolleybuses running between designated stops and costing 15 soms per trip. There are hundreds of private minibuses (marshrutkas) and a trip in these will cost 20 soms (fixed fares) but they will stop anywhere on their route to pick up/ put down passengers. PLEASE BE AWARE OF PICKPOCKETS AT ALL TIMES on public transport and in shops/stores/markets! Taxis are available on the street or by telephone around the clock but are more expensive at night. Always agree the price before getting in the taxi. In Bishkek, a taxi ride will normally cost between 150 and 350 soms in the daytime. For those who wish to go to other destinations there are bus stations in every big town where you can choose between buses, minibuses (marshrutkas) and taxis. It is possible to share a taxi (usually 4 to a vehicle) and this is usually the quickest way to travel. DO NOT PAY BEFORE YOU ARRIVE AT YOUR DESTINATION!
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="pills-photo"
+                                     role="tabpanel" aria-labelledby="pills-photo-tab">
+                                    <h2 class="accordion__head-title-sm">Photography</h2>
+                                    <p>
+                                        The Kyrgyz love having their photograph taken but other nationalities are not so forthcoming and so it is always advisable to ask before taking your camera out. Photography is generally banned in Museums but can usually be arranged for a suitable 'fee'. Avoid photographing military objects, airports, police and service personnel.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="pills-get"
+                                     role="tabpanel" aria-labelledby="pills-get-tab">
+                                    <h2 class="accordion__head-title-sm">How to get here</h2>
+                                    <span class="accordion__head-descr">You can reach Bishkek directly by the following airlines:</span>
+                                    <div class="accordion" id="accordionExampleGet">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOneGet">
+                                                <button class="accordion-button" type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseOneGet"
+                                                        aria-expanded="true" aria-controls="collapseOneGet">
+                                                    Aeroflot
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOneGet"
+                                                 class="accordion-collapse collapse show"
+                                                 aria-labelledby="headingOne"
+                                                 data-bs-parent="#accordionExampleGet">
+                                                <div class="accordion-body">
+                                                    <div class="list-info_accordion">
+                                                        <div class="item-info__accordion">
+                                                            <b>Airlines</b>
+                                                            <span>Aeroflot</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>From-To</b>
+                                                            <span>Moscow - Bishkek</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>Days a week</b>
+                                                            <span>7</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingTwoGet">
+                                                <button class="accordion-button collapsed"
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseTwoGet" aria-expanded="false" aria-controls="collapseTwoGet">
+                                                    Air Astana
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwoGet"
+                                                 class="accordion-collapse collapse"
+                                                 aria-labelledby="headingTwo"
+                                                 data-bs-parent="#accordionExampleGet">
+                                                <div class="accordion-body">
+                                                    <div class="list-info_accordion">
+                                                        <div class="item-info__accordion">
+                                                            <b>Airlines</b>
+                                                            <span>Aeroflot</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>From-To</b>
+                                                            <span>Moscow - Bishkek</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>Days a week</b>
+                                                            <span>7</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingThreeGet">
+                                                <button class="accordion-button collapsed"
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseThreeGet"
+                                                        aria-expanded="false"
+                                                        aria-controls="collapseThreeGet">
+                                                    China Southern Airlines
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThreeGet"
+                                                 class="accordion-collapse collapse"
+                                                 aria-labelledby="headingThree" data-bs-parent="#accordionExampleGet">
+                                                <div class="accordion-body">
+                                                    <div class="list-info_accordion">
+                                                        <div class="item-info__accordion">
+                                                            <b>Airlines</b>
+                                                            <span>Aeroflot</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>From-To</b>
+                                                            <span>Moscow - Bishkek</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>Days a week</b>
+                                                            <span>7</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingFourGet">
+                                                <button class="accordion-button collapsed"
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseFourGet"
+                                                        aria-expanded="false"
+                                                        aria-controls="collapseThreeGet">
+                                                    Fly Dubai
+                                                </button>
+                                            </h2>
+                                            <div id="collapseFourGet"
+                                                 class="accordion-collapse collapse"
+                                                 aria-labelledby="headingThree" data-bs-parent="#accordionExampleGet">
+                                                <div class="accordion-body">
+                                                    <div class="list-info_accordion">
+                                                        <div class="item-info__accordion">
+                                                            <b>Airlines</b>
+                                                            <span>Aeroflot</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>From-To</b>
+                                                            <span>Moscow - Bishkek</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>Days a week</b>
+                                                            <span>7</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingFiveGet">
+                                                <button class="accordion-button collapsed"
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseFiveGet"
+                                                        aria-expanded="false"
+                                                        aria-controls="collapseThreeGet">
+                                                    Tajik Air
+                                                </button>
+                                            </h2>
+                                            <div id="collapseFiveGet"
+                                                 class="accordion-collapse collapse"
+                                                 aria-labelledby="headingThree" data-bs-parent="#accordionExampleGet">
+                                                <div class="accordion-body">
+                                                    <div class="list-info_accordion">
+                                                        <div class="item-info__accordion">
+                                                            <b>Airlines</b>
+                                                            <span>Aeroflot</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>From-To</b>
+                                                            <span>Moscow - Bishkek</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>Days a week</b>
+                                                            <span>7</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingSixGet">
+                                                <button class="accordion-button collapsed"
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseSixGet"
+                                                        aria-expanded="false"
+                                                        aria-controls="collapseThreeGet">
+                                                    Turkish Airlines
+                                                </button>
+                                            </h2>
+                                            <div id="collapseSixGet"
+                                                 class="accordion-collapse collapse"
+                                                 aria-labelledby="headingThree" data-bs-parent="#accordionExampleGet">
+                                                <div class="accordion-body">
+                                                    <div class="list-info_accordion">
+                                                        <div class="item-info__accordion">
+                                                            <b>Airlines</b>
+                                                            <span>Aeroflot</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>From-To</b>
+                                                            <span>Moscow - Bishkek</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>Days a week</b>
+                                                            <span>7</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingSevenGet">
+                                                <button class="accordion-button collapsed"
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseSevenGet"
+                                                        aria-expanded="false"
+                                                        aria-controls="collapseThreeGet">
+                                                    Turkish Airlines
+                                                </button>
+                                            </h2>
+                                            <div id="collapseSevenGet"
+                                                 class="accordion-collapse collapse"
+                                                 aria-labelledby="headingThree" data-bs-parent="#accordionExampleGet">
+                                                <div class="accordion-body">
+                                                    <div class="list-info_accordion">
+                                                        <div class="item-info__accordion">
+                                                            <b>Airlines</b>
+                                                            <span>Aeroflot</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>From-To</b>
+                                                            <span>Moscow - Bishkek</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>Days a week</b>
+                                                            <span>7</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingEightGet">
+                                                <button class="accordion-button collapsed"
+                                                        type="button"
+                                                        data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseEightGet"
+                                                        aria-expanded="false"
+                                                        aria-controls="collapseThreeGet">
+                                                    Uzbek Airways
+                                                </button>
+                                            </h2>
+                                            <div id="collapseEightGet"
+                                                 class="accordion-collapse collapse"
+                                                 aria-labelledby="headingThree" data-bs-parent="#accordionExampleGet">
+                                                <div class="accordion-body">
+                                                    <div class="list-info_accordion">
+                                                        <div class="item-info__accordion">
+                                                            <b>Airlines</b>
+                                                            <span>Aeroflot</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>From-To</b>
+                                                            <span>Moscow - Bishkek</span>
+                                                        </div>
+                                                        <div class="item-info__accordion">
+                                                            <b>Days a week</b>
+                                                            <span>7</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <b class="accordion-note">Please note that timetable due to COVID-19 is subject to change and contact airlines for valid schedule.</b>
+                                </div>
+                                <div class="tab-pane fade" id="pills-condition"
+                                     role="tabpanel" aria-labelledby="pills-condition-tab">
+                                    <h2 class="accordion__head-title-sm">
+                                        Conditions of residence
+                                    </h2>
+                                    <span>
+                                    Citizens of following countries from July 2012 no longer need a Kyrgyz visa or have to register with OVIR (the foreigner-registration department)
+                                </span>
+                                    <div class="row">
+                                        <div class="accordion-lands-list">
+                                            <div class="land-col">
+                                                <span>Australia</span>
+                                                <span>Austria</span>
+                                                <span>Bahrain</span>
+                                                <span>Belgium</span>
+                                                <span>Bosnia, Herzegovina</span>
+                                                <span>Brunei-Dar-As-Salam</span>
+                                                <span>Canada</span>
+                                                <span>Czech Republic</span>
+                                                <span>Croatia</span>
+                                            </div>
+                                            <div class="land-col">
+                                                <span>Denmark</span>
+                                                <span>Estonia</span>
+                                                <span>Finland</span>
+                                                <span>France</span>
+                                                <span>Germany</span>
+                                                <span>Greece</span>
+                                                <span>Hungary</span>
+                                                <span>Ireland</span>
+                                                <span>Iceland</span>
+                                            </div>
+                                            <div class="land-col">
+                                                <span>Italy</span>
+                                                <span>Korea</span>
+                                                <span>Kuwait</span>
+                                                <span>Latvia</span>
+                                                <span>Liechtenstein</span>
+                                                <span>Lithuania</span>
+                                                <span>Luxemburg</span>
+                                                <span>Malta</span>
+                                                <span>Monaco</span>
+                                            </div>
+                                            <div class="land-col">
+                                                <span>Netherlands</span>
+                                                <span>New Zealand</span>
+                                                <span>Norway</span>
+                                                <span>Poland</span>
+                                                <span>Portugal</span>
+                                                <span>Qatar</span>
+                                                <span>Saudi Arabia</span>
+                                                <span>Singapore</span>
+                                                <span>Slovenia</span>
+                                            </div>
+                                            <div class="land-col">
+                                                <span>Slovak Republic</span>
+                                                <span>Spain</span>
+                                                <span>Sweden</span>
+                                                <span>Switzerland</span>
+                                                <span>Turkey</span>
+                                                <span>United Arab Emirates</span>
+                                                <span>United Kingdom</span>
+                                                <span>USA</span>
+                                                <span>Vatican</span>
+                                            </div>
+                                        </div>
+                                        <p class="accordion-lands__description">
+                                            Tourists from other countries can obtain a visa from an Embassy or Consular Office of the Kyrgyz Republic, tourism company - if booking a holiday through them - or at Manas (Bishkek) airport on arrival. The cost of a visa varies.
+                                            <br>
+                                            <br>
+                                            Another possibility to get visa to Kyrgyzstan is e-visa. All informationn on getting this type of the visa you can find on official webpage:
+                                            <a href="#">www.evisa.e-gov.kg</a>
+                                            <br>
+                                            <br>
+                                            Unless a tourist is a citizen of one of the above-listed countries, he/she MUST register with the OVIR office within 3 days of arrival. In case of failure to do so may result in a 25 USD fine.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-missions"
+                                     role="tabpanel" aria-labelledby="pills-missions-tab">
+                                    <h2 class="accordion__head-title-sm">
+                                        Overseas diplomatic missions of the Kyrgyz Republic
+                                    </h2>
+                                    <div class="row">
+                                        <div class="accordion-lands-list">
+                                            <div class="land-col">
+                                                <span>Australia</span>
+                                                <span>Belgium</span>
+                                                <span>Byelorussia</span>
+                                                <span>Canada</span>
+                                                <span>China</span>
+                                            </div>
+                                            <div class="land-col">
+                                                <span>Germany</span>
+                                                <span>India</span>
+                                                <span>Iran</span>
+                                                <span>Kazakhstan</span>
+                                                <span>Malaysia</span>
+                                            </div>
+                                            <div class="land-col">
+                                                <span>Russia</span>
+                                                <span>Switzerland</span>
+                                                <span>Tajikistan</span>
+                                                <span>The Ukraine</span>
+                                                <span>Turkey</span>
+                                            </div>
+                                            <div class="land-col">
+                                                <span>Turkmenistan</span>
+                                                <span>United Arab Emirates</span>
+                                                <span>United Kingdom</span>
+                                                <span>USA</span>
+                                                <span>Uzbekistan</span>
+                                            </div>
+                                        </div>
+                                        <p class="accordion-lands__description">
+                                            For complete information please refer to the page of <a href="#"> Ministry of Foreign Affairs</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-airport"
+                                     role="tabpanel" aria-labelledby="pills-airport-tab">
+                                    <h2 class="accordion__head-title-sm">
+                                        Customs and airport taxes
+                                    </h2>
+                                    <span>
+                                    There is no airport tax on internal flights and most international flights. Standard airline rules apply about baggage allowances/excess baggage - check your weight allowances before departure from your home airport.
+                                </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile_block">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item"
+                                >
+                                    <h2 class="accordion-header" id="headingOne2">
+                                        <button class="accordion-button"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne2"
+                                                aria-expanded="true"
+                                                aria-controls="collapseOne2">
+                                            Location
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne2"
+                                         class="accordion-collapse collapse show"
+                                         aria-labelledby="headingOne2"
+                                         data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Kyrgyzstan lies at the very heart of Central Asia surrounded by the mighty expanses of China, Kazakhstan Uzbekistan and Tajikistan. It covers an area of 198,500 sq. km. and its longest borders run 925 km from west to east and 454 km from north to south. The topography and geography of the country lends itself to a North-South divide, with the main concentrations of population/business in the north and south, with an almost uninhabited interior.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo1">
+                                        <button class="accordion-button collapsed"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo1"
+                                                aria-expanded="false"
+                                                aria-controls="collapseTwo1">
+                                            Time
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo1"
+                                         class="accordion-collapse collapse"
+                                         aria-labelledby="headingTwo1"
+                                         data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            GMT + 6 hours. Kyrgyzstan does not operates Daylight Saving Time.
+                                            Almaty (Kazakhstan) to Kyrgyz time is same
+                                            Tashkent (Uzbekistan) to Kyrgyz time – 1 hour
+                                            Beijing (China) to Kyrgyz time + 2 hours
+                                            Moscow (Russia) to Kyrgyz time – 3 hours
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree1">
+                                        <button class="accordion-button collapsed"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree1"
+                                                aria-expanded="false"
+                                                aria-controls="collapseThree1">
+                                            Climate
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree1"
+                                         class="accordion-collapse collapse"
+                                         aria-labelledby="headingThree1"
+                                         data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                The mountainous terrain, remoteness from any oceans and being surrounded by deserts, gives Kyrgyzstan what can only be described as a harsh continental climate, with large changes in temperature occurring in a short period of time. The wettest place is the west slope of the Ferghana Range with 1,000 mm, whilst the driest is Balykchy on the western tip of Issyk-Kul Lake with 100 mm of precipitation. The average temperature throughout the country in January varies between - 4 to - 14 C and in July between + 12 to + 40 C and there is an average of 247 days of sunshine a year.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour1">
+                                        <button class="accordion-button collapsed"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFour1"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFour1">
+                                            Landscapes
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour1"
+                                         class="accordion-collapse collapse"
+                                         aria-labelledby="headingFour1"
+                                         data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                The fact that 94% of Kyrgyzstan is covered in mountains produces great variations in the geographical, topographical and natural appearance of the country. The lowest valley floor is itself 500 metres above sea level and the highest peaks soar to more than 7,000 metres above sea level in the mighty Tien Shan Range. These mighty peaks are world renowned and are part of the exclusive list of 7,000 metre plus peaks of the world - Pobeda Peak (Victory Peak) 7,439m, Lenin Peak 7,134m and the legendary Khan-Tengry (7010m) - the white/pink marble pyramid held sacred by the Kyrgyz through the ages.
+                                                Mountain lakes abound and arguably one of the most beautiful sets of lakes anywhere in the world can be found at Sary Chelek in a national park. To see this is to behold the true beauty of nature. The 'Pearl of the Heavenly Mountains' - or Issyk-Kul Lake - is the second largest high mountain lake in the world, second only to Lake Titicaca in size and is so big it has its own unique biosphere. Although forests cover only a small area of Kyrgyzstan the truly unique indigenous walnut tree forests of Arslan-bob are worth any sort of journey to see.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive1">
+                                        <button class="accordion-button collapsed"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFive1"
+                                                aria-expanded="false"
+                                                aria-controls="collapseFive1">
+                                            Flora and fauna
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive1"
+                                         class="accordion-collapse collapse"
+                                         aria-labelledby="headingFive1"
+                                         data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>The flora and fauna here are both unique and plentiful, ranging from exquisite semi-tropical tulips to stunningly beautiful alpine edelweiss - yes Kyrgyzstan is not known as the 'Switzerland of Asia' for nothing and the vitamin content of herbs are second to none in the world, far exceeding those of the famed herbs of Georgia beloved of perfume and medicinal companies of the west! There is even a unique fir tree - the Tien Shan Spruce.
+                                                The number and range of birds of prey has to be seen to be believed and travellers to the more remote parts of the country will be amazed at how close it is possible to approach these magnificent animals if one is careful. Although they should probably be counted as domestic animals, it should be noted that camels and yaks are also to be found in the higher areas and plans are afoot to dramatically increase the breeding of yaks.
+                                                To do full justice to the wonderful range of flora and fauna would take far more space than is available here - so, again, please come and see for yourself - you will not be disappointed!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSix1">
+                                        <button class="accordion-button collapsed"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#collapseSix1"
+                                                aria-expanded="false"
+                                                aria-controls="collapseSix1">
+                                            Population
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix1"
+                                         class="accordion-collapse collapse"
+                                         aria-labelledby="headingSix1"
+                                         data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                The official statistics says about 6 millions of inhabitants. And among them are Kyrgyz 72,8%; Uzbek 14,5%; Russian 6,2% and other nationalities 6,5%  (Germans, Ukrainians, Kazakhs, Koreans, Tatars, Tajiks, Uighirs and Dungans). The average density for the whole country is 30 people per square kilometre, although Ferghana Valley is extremely overcrowded.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-culture"
+                         role="tabpanel" aria-labelledby="pills-culture-tab">
+                        <h2 class="accordion__head-title">Cultural events calendar 2023</h2>
+                        <h5 class="accordion__head-subtitle">
+                            Following festivals are planned for summer 2024
+                        </h5>
+                        <div class="festival-list">
+                            <div class="festival-item">
+                                <div class="festival-item__date">
+                                    <img class="festival-img" src="/assets/images/svg/festival-green.svg" alt="">
+                                    <img class="festival-img-active" src="/assets/images/svg/festival-white.svg" alt="">
+                                    <span>July 7</span>
+                                </div>
+                                <div class="festival-item__name">
+                                    National Horse Games Festival by CBT Kyzyl-Oi
+                                </div>
+                            </div>
+                            <div class="festival-item">
+                                <div class="festival-item__date">
+                                    <img class="festival-img" src="/assets/images/svg/festival-green.svg" alt="">
+                                    <img class="festival-img-active" src="/assets/images/svg/festival-white.svg" alt="">
+                                    <span>August 3</span>
+                                </div>
+                                <div class="festival-item__name">
+                                    Sulbuurun Festival
+                                </div>
+                            </div>
+                            <div class="festival-item">
+                                <div class="festival-item__date">
+                                    <img class="festival-img" src="/assets/images/svg/festival-green.svg" alt="">
+                                    <img class="festival-img-active" src="/assets/images/svg/festival-white.svg" alt="">
+                                    <span>August 6</span>
+                                </div>
+                                <div class="festival-item__name">
+                                    National Horse Games and Birds of Prey Festival
+                                    by CBT Tamchy
+                                </div>
+                            </div>
+                            <div class="festival-item">
+                                <div class="festival-item__date">
+                                    <img class="festival-img" src="/assets/images/svg/festival-green.svg" alt="">
+                                    <img class="festival-img-active" src="/assets/images/svg/festival-white.svg" alt="">
+                                    <span>August 10</span>
+                                </div>
+                                <div class="festival-item__name">
+                                    Birds of Prey Festival
+                                    by CBT Bokonbaevo
+                                </div>
+                            </div>
+                        </div>
+                        <div class="festival-item__content">
+                            <h5>National Horse Games Festival by CBT Kyzyl-Oi</h5>
+                            <div class="festival-item__info">
+                                <div class="festival-item__info-item">
+                                    <b>Date</b>
+                                    <span>July 7</span>
+                                </div>
+                                <div class="festival-item__info-item">
+                                    <b>Day</b>
+                                    <span>Sunday</span>
+                                </div>
+                                <div class="festival-item__info-item">
+                                    <b>Place</b>
+                                    <span>Kyzyl-Oi village (Suusamyr Valley)</span>
+                                </div>
+                                <div class="festival-item__info-item">
+                                    <b>Performance</b>
+                                    <span>
+                                        National horse games Ulak-Tartysh,
+                                        Kyz- Kuumai, Er-Enish; Folklore show; Kyrgyz cuisine.
+                                    </span>
+                                </div>
+                                <div class="festival-item__info-item">
+                                    <b>Price</b>
+                                    <span>1500 soms Including lunch </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-useful"
+                         role="tabpanel" aria-labelledby="pills-useful-tab">
+                        <h2 class="accordion__head-title">Useful links</h2>
+                        <h5 class="accordion__head-subtitle">Ministries of Foreign Affairs</h5>
+                        <div class="links-list">
+                            <div class="links-list__item">
+                                <b>Kyrgyzstan</b>
+                                <a href="#">www.mfa.gov.kg</a>
+                            </div>
+                            <div class="links-list__item">
+                                <b>Kazakhstan</b>
+                                <a href="#">www.mfa.gov.kz</a>
+                            </div>
+                            <div class="links-list__item">
+                                <b>Uzbekistan</b>
+                                <a href="#">www.mfa.gov.uz</a>
+                            </div>
+                        </div>
+                        <h5 class="accordion__head-subtitle">E-visa</h5>
+                        <div class="links-list mb-0">
+                            <div class="links-list__item">
+                                <b>Kyrgyzstan</b>
+                                <a href="#">http://www.evisa.e-gov.kg</a>
+                            </div>
+                            <div class="links-list__item">
+                                <b>Uzbekistan</b>
+                                <a href="#">http://evisa.mfa.uz</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-phrase"
+                         role="tabpanel" aria-labelledby="pills-phrase-tab">
+                        <h2 class="accordion__head-title">Phrase-book</h2>
+                        <h5 class="accordion__head-subtitle">English - Russian - Kyrgyz</h5>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                        Greetings
+                                    </button>
+                                </h2>
+                                <div id="collapseOne"
+                                     class="accordion-collapse collapse show"
+                                     aria-labelledby="headingOne"
+                                     data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">Greetings</th>
+                                                <th scope="col">Privetstvovanie</th>
+                                                <th scope="col">Salam-dashuu</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Good morning</td>
+                                                <td>Dobroe utra</td>
+                                                <td>Salamatsyzby</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Good morning</td>
+                                                <td>Dobroe utra</td>
+                                                <td>Salamatsyzby</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Good morning</td>
+                                                <td>Dobroe utra</td>
+                                                <td>Salamatsyzby</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Getting acquainted
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">Greetings</th>
+                                                <th scope="col">Privetstvovanie</th>
+                                                <th scope="col">Salam-dashuu</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Good morning</td>
+                                                <td>Dobroe utra</td>
+                                                <td>Salamatsyzby</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Good morning</td>
+                                                <td>Dobroe utra</td>
+                                                <td>Salamatsyzby</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Good morning</td>
+                                                <td>Dobroe utra</td>
+                                                <td>Salamatsyzby</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Farewells
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">Greetings</th>
+                                                <th scope="col">Privetstvovanie</th>
+                                                <th scope="col">Salam-dashuu</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>Good morning</td>
+                                                <td>Dobroe utra</td>
+                                                <td>Salamatsyzby</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Good morning</td>
+                                                <td>Dobroe utra</td>
+                                                <td>Salamatsyzby</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Good morning</td>
+                                                <td>Dobroe utra</td>
+                                                <td>Salamatsyzby</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-main">
+        <div class="container">
+            <div class="footer-main__block">
+                <div class="footer-main__logo">
+                    <a href="/">
+                        <img src="./assets/images/svg/footer_logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="footer-main__info">
+                    <a href="#">
+                        <img src="./assets/images/svg/location-black.svg" alt="location">
+                        <span>
+                            Travel Company 38 Tashkentskaya Str. Bishkek, 720033 Kyrgyzstan
+                        </span>
+                    </a>
+                    <a href="mailto:info@novinomad.com">
+                        <img src="./assets/images/svg/email.svg" alt="">
+                        <span>info@novinomad.com</span>
+                    </a>
+                    <a href="tel:(++ 996 312) 62 23 81">
+                        <img src="./assets/images/svg/phone.svg" alt="">
+                        <span>(++ 996 312) 62 23 81</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-main__menu">
+                <ul>
+                    <li><a href="#">Abohut us</a></li>
+                    <li><a href="#">Our services</a></li>
+                    <li><a href="#">Newsteller</a></li>
+                    <li><a href="#">Photogallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Send feedback</a></li>
+                    <li><a href="#">Trip planner</a></li>
+                </ul>
+            </div>
+            <div class="footer-main__general-info">
+                <span>(c)2024</span>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1405,6 +1405,298 @@ header.header-countries{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
+.countries-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.countries-list__item{
+    width: 49%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 42px;
+    padding: 40px;
+}
+.countries-list__item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 42px;
+    transition: all 0.5s;
+    z-index: 2;
+}
+.countries-list__item > img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.countries-list__item > h2{
+    font-family: var(--second-family);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: block;
+    position:relative;
+    color: #fff;
+    z-index: 5;
+}
+.central-asia{
+    margin-bottom: 100px;
+}
+.central-asia .container >p {
+    font-family: var(--second-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 40px;
+}
+.central-asia h1 {
+    font-family: var(--second-family);
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 131.14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 40px;
+}
+.tour-fix-item{
+    background: #fff !important;
+    padding: 0;
+}
+.tour-fix-item.active{
+    background: #fff !important;
+}
+.tour-fix-item.active .festival-item{
+    background: #79c3cb !important;
+}
+.tour-fix-item.active .festival-img-active{
+    display: block;
+}
+.tour-fix-item.active .festival-img {
+    display: none;
+}
+.tour-fix-item.active span {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+.tour-fix-item.active .festival-item__name{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+.tour-fix-item .festival-item__date span{
+    text-align: left;
+}
+.tour-fix-item .festival-item__name {
+    text-align: left;
+}
+.tour-fix-attributes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.tour-fix-attributes-item{
+    display: flex;
+    flex-direction: column;
+}
+.tour-fix-attributes-item b {
+    font-family: var(--second-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32.78px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 10px;
+}
+.tour-fix-attributes-item span {
+    font-family: var(--second-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.tour-fix-desc-photo{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.tour-fix-desc-photo > img {
+    border-radius: 11px;
+}
+.fix-tours-dates__list{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.fix-tours-dates__item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    border: 1px solid #80808033;
+    max-width: 345px;
+    width: 100%;
+    padding: 20px;
+    height: 198px;
+}
+.fix-tours-dates h2{
+    font-family: var(--first-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 30px;
+}
+.fix-tours-dates__item > span {
+    font-family: var(--second-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 200px;
+}
+.fix-tours-dates__item > a {
+    font-family: var(--second-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43.71px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #79C3CB;
+}
+.detailed{
+    margin-top: 50px;
+}
+.detailed h2{
+    font-family: var(--first-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 30px;
+}
+.program-fix{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(128, 128, 128, 0.38);
+    padding: 20px;
+    cursor: pointer;
+}
+.program-fix .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.program-fix .white{
+    display: none;
+}
+.program-fix .black{
+    display: block;
+}
+.program-fix .program-fix_name{
+    color: #000;
+}
+.program-fix.active{
+    background: #79C3CB;
+}
+.program-fix.active .program-fix_name{
+    color: #fff;
+}
+.program-fix.active .white{
+    display: block;
+}
+.program-fix.active .black{
+    display: none;
+}
+.highlights{
+    margin: 30px 0;
+}
+.highlights h3{
+    font-family: var(--first-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 30px;
+}
+.highlights .highlights-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.highlights .highlights-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    max-width: 418px;
+    border: 1px solid rgba(128, 128, 128, 0.22);
+    height: 140px;
+}
+.highlights .highlights-item > span {
+    font-family: var(--second-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.itinerary h3{
+    font-family: var(--first-family);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 30px;
+}
 /*see more end*/
 
 /*main page adaptive*/
